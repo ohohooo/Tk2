@@ -262,7 +262,7 @@ def myhelp():
 ☫คำสั่ง7=คำสั่งเลียนแบบ
 ☫คำสั่ง8=คำสั่งล่องหน
 ☫เชลนี้พัฒนาโดย HARDLINE
-http://line.me/ti/p/~phusamurai
+🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
 〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙"""
     return myHelp
 
@@ -654,7 +654,7 @@ def lineBot(op):
                     start = time.time()
                     line.sendMessage(msg.to,"ความเร็วอยู่ที่")
                     line.sendMessage(msg.to,str(int(round((time.time() - start) * 1000)))+" ms")
-                elif '.มาหำ' in text.lower():
+                elif '.เข้า' in text.lower():
                     if msg.toType == 2:
                         G = line.getGroup(to)
                         if G.preventedJoinByTicket == False:
@@ -676,7 +676,7 @@ def lineBot(op):
                             kc.acceptGroupInvitationByTicket(to, Ti)
                             G.preventedJoinByTicket = True
                             line.updateGroup(G)
-                elif text.lower() == '.ไป':
+                elif text.lower() == '.ออก':
                     if msg.toType == 2:
                         ginfo = line.getGroup(to)
                         try:
@@ -1104,7 +1104,7 @@ def lineBot(op):
                     ret_ += "\n╠ Jumlah Pending : {}".format(gPending)
                     ret_ += "\n╠ Group Qr : {}".format(gQr)
                     ret_ += "\n╠ Group Ticket : {}".format(gTicket)
-                    ret_ += "\n╚══[ Finish ]"
+                    ret_ += "\n╚══[ 〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙 ]"
                     line.sendMessage(to, str(ret_))
                     line.sendImageWithURL(to, path)
                 elif text.lower() == '.สมาชิก':
