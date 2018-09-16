@@ -251,7 +251,7 @@ def sendMessageWithMention(to, lineMID):
         logError(error)
  
 def myhelp():
-    myHelp = """〘☫ஆัງՌຮ⇴ທஆิฬ☫〙
+    myHelp = """〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙
 ☫มี.นำหน้าทุกคำสั่ง    
 ☫คำสั่ง=คำสั่ง
 ☫คำสั่ง2=คำสั่งตั้งค่า
@@ -572,7 +572,7 @@ def lineBot(op):
                         line.sendMessage(manusia,(bctxt))
                 elif ".ทีมงาน" == msg.text.lower():
                     msg.contentType = 13
-                    line.sendMessage(to, "〘 ♻TEAM🔘BOT🔘HARDLINE♻  〙")
+                    line.sendMessage(to, "〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙")
                     line.sendContact(to, "ufe85023b21166b42486f77897b6bc307")
                     line.sendContact(to, "u7a5592b486c643f1f60a444854037e28")
                     line.sendContact(to, "ue06dc4e846567f9c887ae7482e25c140")
@@ -589,7 +589,7 @@ def lineBot(op):
                     line.sendMessage(to, "████████▒... 80.0%")
                     line.sendMessage(to, "█████████▒... 90.0%")
                     line.sendMessage(to, "███████████..100.0%")
-                    line.sendMessage(to, "👍〘บอทยังอยู่ครับท่าน〙👍") 
+                    line.sendMessage(to, "〘 ♻TEAM🔘BOT🔘HARDLINE♻  〙") 
                 elif "!คท " in msg.text:
                     mmid = msg.text.replace("!คท ","")
                     line.sendContact(to, mmid)
@@ -703,14 +703,14 @@ def lineBot(op):
                         grouplist = line.getGroupIdsJoined()
                         contactlist = line.getAllContactIds()
                         blockedlist = line.getBlockedContactIds()
-                        ret_ = "TM SAMURAI"
-                        ret_ += "\n🌠ชื่อ ═ {}".format(contact.displayName)
-                        ret_ += "\n🌠กลุ่ม ═ {}".format(str(len(grouplist)))
-                        ret_ += "\n🌠เพื่อน ═ {}".format(str(len(contactlist)))
-                        ret_ += "\n🌠บล็อค ═ {}".format(str(len(blockedlist)))
-                        ret_ += "\n🌠สถานะ🌠"
-                        ret_ += "\n🌠ผู้สร้าง ═ {}".format(creator.displayName)
-                        ret_ += "\nTM SAMURAI"
+                        ret_ = "〘 ♻TEAM🔘BOT🔘HARDLINE♻  〙"
+                        ret_ += "\n🔴ชื่อ ═ {}".format(contact.displayName)
+                        ret_ += "\n🔴กลุ่ม ═ {}".format(str(len(grouplist)))
+                        ret_ += "\n🔴เพื่อน ═ {}".format(str(len(contactlist)))
+                        ret_ += "\n🔴บล็อค ═ {}".format(str(len(blockedlist)))
+                        ret_ += "\n🔴สถานะ"
+                        ret_ += "\n🔴ผู้สร้าง ═ {}".format(creator.displayName)
+                        ret_ += "〘 ♻TEAM🔘BOT🔘HARDLINE♻  〙"
                         line.sendContact(to, owner)
                         line.sendMessage(to, str(ret_))
                     except Exception as e:
@@ -718,7 +718,7 @@ def lineBot(op):
 #==============================================================================#
                 elif text.lower() == '.เชคค่า':
                     try:
-                        ret_ = "╔════[ TM SAMURAI ]═════┓"
+                        ret_ = "╔════[ 〘 ♻TEAM🔘BOT🔘HARDLINE♻  〙 ]═════┓"
                         if settings["autoBlock"] == True: ret_ += "\n╠❂☞ รับบล็อคออโต้ ✔"
                         else: ret_ += "\n╠❂☞ รับบล็อคออโต้    ✘ "
                         if settings["autoJoin"] == True: ret_ += "\n╠❂☞ เข้าห้องออโต้ ✔"
@@ -745,7 +745,7 @@ def lineBot(op):
                         else: ret_ += "\n╠❂☞ แสดงภาพคนแทค ✘ "
                         if settings["detectMention"] == True: ret_ += "\n╠❂☞ แสดงติ้กคนแทค ✔"
                         else: ret_ += "\n╠❂☞ แสดงติ้กคนแทค ✘ "
-                        ret_ += "\n╚════[ TM SAMURAI ]═════┛"
+                        ret_ += "\n╚════[ 〘 ♻TEAM🔘BOT🔘HARDLINE♻  〙 ]═════┛"
                         line.sendMessage(to, str(ret_))
                     except Exception as e:
                         line.sendMessage(msg.to, str(e))
