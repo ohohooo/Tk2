@@ -18,9 +18,9 @@ line = LINE()
 line.log("Auth Token : " + str(line.authToken))
 line.log("Timeline Token : " + str(line.tl.channelAccessToken))
 
-ki = LINE()
-ki.log("Auth Token : " + str(ki.authToken))
-ki.log("Timeline Token : " + str(ki.tl.channelAccessToken))
+#ki = LINE()
+#ki.log("Auth Token : " + str(ki.authToken))
+#ki.log("Timeline Token : " + str(ki.tl.channelAccessToken))
 
 #kk = LINE()
 #kk.log("Auth Token : " + str(kk.authToken))
