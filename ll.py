@@ -572,9 +572,9 @@ def lineBot(op):
                         line.sendMessage(manusia,(bctxt))
                 elif ".ทีมงาน" == msg.text.lower():
                     msg.contentType = 13
-                    line.sendMessage(to, "TM SAMURAI")
-                    line.sendContact(to, "u12900f08558d4efec39ce7807a97fb3d")
-                    line.sendContact(to, "ua7e15268ea6504f7e778126821516878")
+                    line.sendMessage(to, "〘 ♻TEAM🔘BOT🔘HARDLINE♻  〙")
+                    line.sendContact(to, "ufe85023b21166b42486f77897b6bc307")
+                    line.sendContact(to, "u7a5592b486c643f1f60a444854037e28")
                     line.sendContact(to, "ue06dc4e846567f9c887ae7482e25c140")
                     line.sendContact(to, "ub97e7e9938c2559dcb58323b37fd0555")
                 elif text.lower() == '.เทส':
