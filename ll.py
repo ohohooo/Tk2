@@ -261,9 +261,9 @@ def myhelp():
 ☫คำสั่ง6=คำสั่งกลุ่ม
 ☫คำสั่ง7=คำสั่งเลียนแบบ
 ☫คำสั่ง8=คำสั่งล่องหน
-☫เชลนี้พัฒนาโดย ™❍✯͜͡PHU™SAMURI✯͜͡❂➣
+☫เชลนี้พัฒนาโดย HARDLINE
 http://line.me/ti/p/~phusamurai
-〘☫ஆัງՌຮ⇴ທஆิฬ☫〙"""
+〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙"""
     return myHelp
 
 def listgrup():
